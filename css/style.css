@@ -9,6 +9,14 @@ body{
   color: var(--text-main);
 }
 
+*{
+  box-sizing: content-box;
+  margin: 0,1rem;
+  padding: 0,1rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+}
+
 @media (min-width: 40em) {
   /* TODO */
 }
