@@ -50,6 +50,14 @@ a{
 }
 }
 
+@media (prefers-color-scheme: dark) and (prefers-contrast: more){
+  :root {
+    --bg-body: #080808;
+    --text-main: #1db9d1;
+    --link-color: rgb(197, 170, 19);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   /* TODO */
 }
