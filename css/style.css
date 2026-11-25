@@ -1,6 +1,7 @@
 :root{
   --bg-body: blanchedalmond;
   --text-main: black;
+  --link-color: blue;
 }
 
 body{
@@ -17,21 +18,27 @@ body{
   font-size: 1rem;
 }
 
-@media (min-width: 40em) {
+a{
+  color: var(--link-color);
+}
+
+@media (min-width: 40em) and (max-width: 60em){
+    /* TODO */
+}
+
+@media (min-width: 60em) and (max-width: 80em){
   /* TODO */
 }
 
-@media (min-width: 60em) {
-  /* TODO */
-}
-
-@media (min-width: 80em) {
+@media (min-width: 80em){
   /* TODO */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* TODO */
+    --bg-body: #080808;
+    --text-main: #51838b;
+    --link-color: rgb(197, 170, 19);
   }
 }
 
